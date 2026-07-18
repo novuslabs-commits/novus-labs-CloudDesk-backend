@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+python-dotenv
+python-jose
+passlib[bcrypt]
+bcrypt==4.0.1
+vaderSentiment
+scikit-learn
+pydantic-settings
+email-validator
+google-genai

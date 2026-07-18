@@ -1,0 +1,31 @@
+# Environment variables
+.env
+
+# Database
+dev.db
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# Model checkpoints (large files — model/saved_model_3 committed separately if under GitHub limits)
+model/checkpoints/
+model/logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+#model
+model/saved_model_3/
